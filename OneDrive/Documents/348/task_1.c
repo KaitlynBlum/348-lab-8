@@ -9,7 +9,7 @@ int main(void) {
 
         if (score <= 1) break;
 
-        printf("Possible combinations of scoring plays if a team’s score is %d:\n", score);
+        printf("Possible combinations of scoring plays if a team's score is %d:\n", score);
 
         // Loop through all combinations of scoring plays
         for (int td2 = 0; td2 * 8 <= score; td2++) {              // TD + 2pt (8)
